@@ -6,7 +6,6 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class SwapiClient {
 
-	
 	RestTemplate restTemplate = new RestTemplate();
 	
 	final String ROOT_URI = "https://swapi.dev/api/planets/";

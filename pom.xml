@@ -15,9 +15,8 @@
 	<description>Echo Project</description>
 	
 	<properties>
-	    <sonar.projectKey>projeto-base-pm-unirio-echo-com-spring-boot</sonar.projectKey>
-        <sonar.organization>unirio-pm</sonar.organization>
-    </properties>
+		<sonar.organization>jrmsrs1</sonar.organization>
+	</properties>
 	
 	<dependencies>
 		<dependency>
