@@ -5,13 +5,13 @@ import java.util.List;
 public class Swapi {
 
 	private String name;
-	private String rotation_period;
-	private String orbital_period;
+	private String rotationPeriod;
+	private String orbitalPeriod;
 	private String diameter;
 	private String climate;
 	private String gravity;
 	private String terrain;
-	private String surface_water;
+	private String surfaceWater;
 	private String population;
 	private List<String> residents;
 	private List<String> films;
@@ -28,20 +28,20 @@ public class Swapi {
 		this.name = name;
 	}
 
-	public String getRotation_period() {
-		return rotation_period;
+	public String getRotationPeriod() {
+		return rotationPeriod;
 	}
 
-	public void setRotation_period(String rotation_period) {
-		this.rotation_period = rotation_period;
+	public void setRotationPeriod(String rotationPeriod) {
+		this.rotationPeriod = rotationPeriod;
 	}
 
-	public String getOrbital_period() {
-		return orbital_period;
+	public String getOrbitalPeriod() {
+		return orbitalPeriod;
 	}
 
-	public void setOrbital_period(String orbital_period) {
-		this.orbital_period = orbital_period;
+	public void setOrbitalPeriod(String orbitalPeriod) {
+		this.orbitalPeriod = orbitalPeriod;
 	}
 
 	public String getDiameter() {
@@ -76,12 +76,12 @@ public class Swapi {
 		this.terrain = terrain;
 	}
 
-	public String getSurface_water() {
-		return surface_water;
+	public String getSurfaceWater() {
+		return surfaceWater;
 	}
 
-	public void setSurface_water(String surface_water) {
-		this.surface_water = surface_water;
+	public void setSurfaceWater(String surfaceWater) {
+		this.surfaceWater = surfaceWater;
 	}
 
 	public String getPopulation() {
