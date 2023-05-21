@@ -1,4 +1,4 @@
-package com.example.echo;
+package io.jrmsrs.echo;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -12,5 +12,4 @@ class EchoApplicationTests {
 	void contextLoads() {
 		assertTrue(true);
 	}
-	
 }

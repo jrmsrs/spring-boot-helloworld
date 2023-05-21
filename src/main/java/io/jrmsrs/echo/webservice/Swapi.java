@@ -1,4 +1,4 @@
-package com.example.echo.webservice;
+package io.jrmsrs.echo.webservice;
 
 import java.util.List;
 
@@ -19,7 +19,6 @@ public class Swapi {
 	private String edited;
 	private String url;
 
-		
 	public String getName() {
 		return name;
 	}
