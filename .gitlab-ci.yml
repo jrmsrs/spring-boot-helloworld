@@ -17,10 +17,6 @@
     - mvn verify sonar:sonar -Dsonar.projectKey=jrmsrs1_spring-boot-helloworld
   rules:
     - if: $CI_COMMIT_REF_NAME == 'main' || $CI_PIPELINE_SOURCE == 'merge_request_event'
-  only:
-    - merge_requests
-    - master
-    - develop
  
 #  deploy:
 #   image: ruby:latest
