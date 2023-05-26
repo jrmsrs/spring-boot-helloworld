@@ -27,7 +27,7 @@ Tarefa 5 de PM
 
 ## SonarCloud 📊
 
-[link](https://sonarcloud.io/dashboard?id=jrmsrs1_spring-boot-helloworld)
+[link](https://sonarcloud.io/dashboard?id=jrmsrs_spring-boot-helloworld)
 
 ## Biblioteca de Testes 🧪
 
