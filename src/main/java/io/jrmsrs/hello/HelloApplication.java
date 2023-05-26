@@ -1,13 +1,13 @@
-package io.jrmsrs.echo;
+package io.jrmsrs.hello;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EchoApplication {
+public class HelloApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EchoApplication.class, args);
+		SpringApplication.run(HelloApplication.class, args);
 	}
 
 }

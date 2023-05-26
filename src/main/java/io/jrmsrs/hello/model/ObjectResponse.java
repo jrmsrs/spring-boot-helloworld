@@ -1,4 +1,4 @@
-package io.jrmsrs.echo.model;
+package io.jrmsrs.hello.model;
 
 public class ObjectResponse {
   private String message;

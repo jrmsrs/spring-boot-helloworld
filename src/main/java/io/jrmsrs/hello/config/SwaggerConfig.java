@@ -1,4 +1,4 @@
-package io.jrmsrs.echo.config;
+package io.jrmsrs.hello.config;
 
 import static springfox.documentation.builders.PathSelectors.regex;
 
@@ -23,7 +23,7 @@ public class SwaggerConfig {
   public Docket productApi() {
     return new Docket(DocumentationType.SWAGGER_2)
         .select()
-        .apis(RequestHandlerSelectors.basePackage("io.jrmsrs.echo")) // pacote base onde estão todas as classes java
+        .apis(RequestHandlerSelectors.basePackage("io.jrmsrs.hello")) // pacote base onde estão todas as classes java
         .paths(regex("/hello.*")) // caminhos para acesso aos endpoints
         .build()
         .apiInfo(metaInfo());

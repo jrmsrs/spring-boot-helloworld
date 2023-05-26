@@ -1,11 +1,11 @@
-package io.jrmsrs.echo.controller;
+package io.jrmsrs.hello.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.jrmsrs.echo.model.ObjectResponse;
+import io.jrmsrs.hello.model.ObjectResponse;
 
 @RestController
 @RequestMapping("/")

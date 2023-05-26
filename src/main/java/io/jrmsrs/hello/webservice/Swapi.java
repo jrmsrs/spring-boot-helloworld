@@ -1,4 +1,4 @@
-package io.jrmsrs.echo.webservice;
+package io.jrmsrs.hello.webservice;
 
 import java.util.List;
 
