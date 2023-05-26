@@ -10,17 +10,13 @@ Tarefa 5 de PM
 
 ## Repositório 📚
 
-Dois repositórios remotos espelhados*
+- ~~GitLab: GitLab CI/CD e integração com SonarCloud~~ *não é suportado pelo Railway*
 
-- Gitlab: uso do CI/CD e integração com SonarCloud
+    ~~[tag para entrega](https://gitlab.com/jrmsrs1/spring-boot-helloworld/tree/tarefa5)~~
 
-    [tag para entrega](https://gitlab.com/jrmsrs1/spring-boot-helloworld/tree/tarefa5)
-
-- Github: necessário para a plataforma de deployment Java
+- GitHub: CI/CD com GitHub Actions, integração com SonarCloud e deploy no Railway
 
     [tag para entrega](https://github.com/jrmsrs/spring-boot-helloworld/tree/tarefa5)
-
-*talvez consiga usar só o Github
 
 ## Deploy 🚀
 
